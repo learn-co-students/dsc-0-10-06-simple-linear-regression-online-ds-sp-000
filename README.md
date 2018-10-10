@@ -99,7 +99,7 @@ Once we have a regression line with defined parameters - slope and intercept as 
 <img src="https://vignette.wikia.nocookie.net/whatilearned/images/9/96/Regression_line_equation.jpg/revision/latest?cb=20110521185119
 " width=300>
 
-Remember the different between y and y_hat is that y_hat is the y value predicted by the fitted model, whereas y carries actual values of variable (called the truth values) that were used to calculated the best fit. 
+Remember that the different between y and y_hat is that y_hat is the y value predicted by the fitted model, whereas y carries actual values of variable (called the truth values) that were used to calculated the best fit. 
 
 Next we shall move on and try to code these equations in to draw regression line to a simple dataset to see all of this in action. 
 
