@@ -96,8 +96,7 @@ x_bar and y_bar are the mean values for variables x and y. So to calculate the y
 ### Predict from the model
 
 Once we have a regression line with defined parameters - slope and intercept as shown above, We can easily predict the y_hat (target) value for a new x (feature) value using the parameter values:
-<img src="https://vignette.wikia.nocookie.net/whatilearned/images/9/96/Regression_line_equation.jpg/revision/latest?cb=20110521185119
-" width=300>
+<img src="reg.jpg" width=400>
 
 Remember that the different between y and y_hat is that y_hat is the y value predicted by the fitted model, whereas y carries actual values of variable (called the truth values) that were used to calculated the best fit. 
 
