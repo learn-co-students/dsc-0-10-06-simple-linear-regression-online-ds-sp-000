@@ -1,7 +1,9 @@
 
 # Introduction to Simple Linear Regression 
+
+## Introduction
 For aspiring data scientists, like yourselves, regression analysis the first real "learning" algorithm that they come across with. It is one of the simplest algorithms to master but still requires some statistical understanding of the underlying. This lesson will introduce you to regression process based on the statistical ideas we have discovered so far. 
-### Objectives
+## Objectives
 You will be able to:
 
 * Describe statistical modeling with simple regression 
@@ -10,7 +12,7 @@ You will be able to:
 * Draw a regression line based on calculated slope and intercept
 * Predict the target of a previously unseen input feature
 
-### Introduction
+## Linear regression
 
 So far, we have covered topics like basic hypothesis testing, variable relationships, statistical learning. We shall now build on these ideas to explain the regression process. Regression is a parametric technique used to **predict** the value of a target variable Y based on one or more input feature variables X. Regression is proven to give credible results if the data follows parametric assumptions which will be covered in upcoming lessons. Regression Analysis helps us with analytics in following ways:
 
@@ -23,14 +25,14 @@ and most importantly ..
 
 
 
-### Why is it called "linear" regression?
+## Why is it called "linear" regression?
 
 As we saw in pevious lesson, linear implies that the model functions along a straight or nearly straight line. Linear suggests that the relationship between dependent and independent variable can be expressed in a straight line. A **Simple Linear Regression**  uses a single feature (independent variable) to predict a target (dependent variable) by fitting a best linear relationship, whereas **Multiple Linear Regression** uses more than one features to predict a target variable by fitting a best linear relationship. In this section, we shall mainly focus on simple regression to build a sound understanding. 
 <img src="https://cdn-images-1.medium.com/max/1600/1*iuqVEjdtEMY8oIu3cGwC1g.png" width=400>
 
 So let's move on and see how to calculate such a line. 
 
-### Calculating Slope and Intercepts
+## Calculating Slope and Intercepts
 
 We all know from elementary geometry that equation of a stright line can be written as:
     
@@ -59,7 +61,7 @@ The y-intercept (b) is the value on the y-axis **where the line crosses the axis
 
 You may be thinking that you have to try lots and lots of different lines to see which one fits best. Fortunately, this task is not as complicated as in may seem . Given some data points, the best-fit line always has a distinct slope and y-intercept that can be calculated using simple linear algebraic approaches.
 
-### Best-Fit Line Ingredients
+## Best-Fit Line Ingredients
 
 Before we calculate the best-fit line, we have to make sure that we have calculated following measures for variables x and y:
 
@@ -75,7 +77,7 @@ Before we calculate the best-fit line, we have to make sure that we have calcula
 
 
 
-### Calculating Slope 
+## Calculating Slope 
 The formula for the slope (shown as b below), of the best-fit line is
 
 <img src="https://vignette.wikia.nocookie.net/whatilearned/images/6/61/Regression_slope_equation.jpg/revision/latest?cb=20110521185040" width = 300>
@@ -85,7 +87,7 @@ So You simply divide sy by sx and multiply the result by r.
 The slope of the best-fit line can be a negative number following a negative correlation.  For example, if an increase in police officers is related to a decrease in the number of crimes in a linear fashion, the correlation and hence the slope of the best-fitting line is negative in this case.
 > Slope is not same as correlation.Slope takes the untiless correlation and attaches units to it. Think of Sy divided by Sx as the variation (resembling change) in Y over the variation in X, **in units of X and Y**. 
 
-### Calculating Intercept
+## Calculating Intercept
 
 So now that we have slope value (b), we can put it back into our formula to calculate intercept (shown as a below). 
 
@@ -93,10 +95,11 @@ So now that we have slope value (b), we can put it back into our formula to calc
 
 x_bar and y_bar are the mean values for variables x and y. So to calculate the y-intercept of the best-fit line, you start by finding the slope of the best-fit line using the above steps. Then to find the y-intercept, you multiply slope value mean of x and subtract the result from mean of y. 
 
-### Predict from the model
+## Predict from the model
 
 Once we have a regression line with defined parameters - slope and intercept as shown above, We can easily predict the y_hat (target) value for a new x (feature) value using the parameter values:
-<img src="reg.jpg" width=400>
+<img src="https://vignette.wikia.nocookie.net/whatilearned/images/9/96/Regression_line_equation.jpg/revision/latest?cb=20110521185119
+" width=300>
 
 Remember that the different between y and y_hat is that y_hat is the y value predicted by the fitted model, whereas y carries actual values of variable (called the truth values) that were used to calculated the best fit. 
 
