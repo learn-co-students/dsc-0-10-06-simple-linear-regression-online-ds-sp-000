@@ -2,7 +2,7 @@
 # Introduction to Simple Linear Regression 
 
 ## Introduction
-For aspiring data scientists, like yourselves, regression analysis the first real "learning" algorithm that they come across with. It is one of the simplest algorithms to master but still requires some statistical understanding of the underlying. This lesson will introduce you to regression process based on the statistical ideas we have discovered so far. 
+For aspiring data scientists, like yourselves, regression analysis is the first real "learning" algorithm that they come across. It is one of the simplest algorithms to master but still requires some statistical understanding of the underlying regression process. This lesson will introduce you to regression process based on the statistical ideas we have discovered so far. 
 ## Objectives
 You will be able to:
 
