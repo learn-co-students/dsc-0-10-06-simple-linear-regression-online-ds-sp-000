@@ -2,7 +2,8 @@
 # Introduction to Simple Linear Regression 
 
 ## Introduction
-For aspiring data scientists, like yourselves, regression analysis is the first real "learning" algorithm that they come across. It is one of the simplest algorithms to master but still requires some statistical understanding of the underlying regression process. This lesson will introduce you to regression process based on the statistical ideas we have discovered so far. 
+Regression analysis is usually the first real "learning" algorithm that aspiring data scientists will come across. It is one of the simplest algorithms to master but still requires some statistical understanding of the underlying regression process. This lesson will introduce you to regression process based on the statistical ideas we have discovered so far. 
+
 ## Objectives
 You will be able to:
 
@@ -85,7 +86,7 @@ The formula for the slope (shown as b below), of the best-fit line is
 So You simply divide sy by sx and multiply the result by r.
 
 The slope of the best-fit line can be a negative number following a negative correlation.  For example, if an increase in police officers is related to a decrease in the number of crimes in a linear fashion, the correlation and hence the slope of the best-fitting line is negative in this case.
-> Slope is not same as correlation.Slope takes the untiless correlation and attaches units to it. Think of Sy divided by Sx as the variation (resembling change) in Y over the variation in X, **in units of X and Y**. 
+> Slope is not same as correlation. Slope takes the unitless correlation and attaches units to it. Think of Sy divided by Sx as the variation (resembling change) in Y over the variation in X, **in units of X and Y**. 
 
 ## Calculating Intercept
 
@@ -101,7 +102,7 @@ Once we have a regression line with defined parameters - slope and intercept as 
 <img src="https://vignette.wikia.nocookie.net/whatilearned/images/9/96/Regression_line_equation.jpg/revision/latest?cb=20110521185119
 " width=300>
 
-Remember that the different between y and y_hat is that y_hat is the y value predicted by the fitted model, whereas y carries actual values of variable (called the truth values) that were used to calculated the best fit. 
+Remember that the difference between y and y_hat is that y_hat is the y value predicted by the fitted model, whereas y carries actual values of variable (called the truth values) that were used to calculated the best fit. 
 
 Next we shall move on and try to code these equations in to draw regression line to a simple dataset to see all of this in action. 
 
