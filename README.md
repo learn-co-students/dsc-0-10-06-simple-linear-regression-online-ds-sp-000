@@ -54,7 +54,7 @@ A model really cant get any simpler than this. This equation here is the same on
 Following image that we saw in previous lesson explains this further. 
 ![](https://rasbt.github.io/mlxtend/user_guide/regressor/LinearRegression_files/simple_regression.png)
 
-The slope (m) of a line is the **change in Y over the change in X** (Δy/Δx shown above). For example, a slope of 4/3 means as the x-value increases by 4 units, the y-value moves up by 3 units on average.
+The slope (m) of a line is the **change in Y over the change in X** (Δy/Δx shown above). For example, a slope of 4/3 means as the x-value increases by 3 units, the y-value moves by 4 units on average.
 
 The y-intercept (b) is the value on the y-axis **where the line crosses the axis**. For example, in the equation y= 2x +2, the line crosses the y-axis at the value b = 2. The coordinates of this point would be (0, 2). 
 >When a line crosses the y-axis, the x-value is always 0.
